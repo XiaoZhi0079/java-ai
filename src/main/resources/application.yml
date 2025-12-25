@@ -3,11 +3,11 @@ server:
 
 
 spring:
-  data:
-    redis:
-      host: 8.138.19.224
-      port: 9379
-      password: 1968zhss
+#  data:
+#    redis:
+#      host: 8.138.19.224
+#      port: 9379
+#      password: 1968zhss
 
   servlet:
     multipart:
@@ -22,14 +22,13 @@ spring:
       chat:
         options:
           model: qwen-vl-max
-
           temperature: 0.8
 
-    vectorstore:
-      redis:
-        initialize-schema: true # 是否初始化所需的模式
-        index-name: lee-vectorstore # 用于存储向量的索引名称
-        prefix: 'lee:' # redis 键的前缀
+#    vectorstore:
+#      redis:
+#        initialize-schema: true # 是否初始化所需的模式
+#        index-name: lee-vectorstore # 用于存储向量的索引名称
+#        prefix: 'lee:' # redis 键的前缀
 
 
 

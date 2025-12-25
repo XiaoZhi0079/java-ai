@@ -88,24 +88,26 @@
             <version>4.37.0</version>
         </dependency>
 
-        <!-- Spring AI 内嵌式 Embedding 模型 Starter -->
+<!--        &lt;!&ndash; Spring AI 内嵌式 Embedding 模型 Starter &ndash;&gt;
         <dependency>
             <groupId>org.springframework.ai</groupId>
             <artifactId>spring-ai-starter-vector-store-redis</artifactId>
         </dependency>
 
-        <!-- Spring AI 内嵌式 Embedding 模型 Starter -->
+        &lt;!&ndash; Spring AI 内嵌式 Embedding 模型 Starter &ndash;&gt;
         <dependency>
             <groupId>org.springframework.ai</groupId>
             <artifactId>spring-ai-starter-model-transformers</artifactId>
-        </dependency>
+        </dependency>-->
 
 
-        <!-- Spring AI 文档读取器，用于解析多种格式的文档 -->
+<!--
+        &lt;!&ndash; Spring AI 文档读取器，用于解析多种格式的文档 &ndash;&gt;
         <dependency>
             <groupId>org.springframework.ai</groupId>
             <artifactId>spring-ai-tika-document-reader</artifactId>
         </dependency>
+-->
 
 
 
