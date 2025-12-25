@@ -1,7 +1,7 @@
 package com.example.javaai.control;
 
 import com.example.javaai.service.DocumentService;
-import com.example.javaai.utils.LeeResult;
+import com.example.javaai.utils.Result;
 import jakarta.annotation.Resource;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
